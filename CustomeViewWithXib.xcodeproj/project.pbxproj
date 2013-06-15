@@ -53,6 +53,7 @@
 		07BCCA54176B2E41009A2C41 /* searchRoommates_rent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA30176B2E41009A2C41 /* searchRoommates_rent@2x.png */; };
 		07BCCA55176B2E41009A2C41 /* searchRoommates_rentout.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA31176B2E41009A2C41 /* searchRoommates_rentout.png */; };
 		07BCCA56176B2E41009A2C41 /* searchRoommates_rentout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA32176B2E41009A2C41 /* searchRoommates_rentout@2x.png */; };
+		07E7DA12176C406900296E6C /* UIButton+fewferge.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E7DA11176C406900296E6C /* UIButton+fewferge.m */; };
 		07F636C117641CED006AD75E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F636C017641CED006AD75E /* UIKit.framework */; };
 		07F636C317641CED006AD75E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F636C217641CED006AD75E /* Foundation.framework */; };
 		07F636C517641CED006AD75E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F636C417641CED006AD75E /* CoreGraphics.framework */; };
@@ -119,6 +120,9 @@
 		07BCCA30176B2E41009A2C41 /* searchRoommates_rent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_rent@2x.png"; sourceTree = "<group>"; };
 		07BCCA31176B2E41009A2C41 /* searchRoommates_rentout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_rentout.png; sourceTree = "<group>"; };
 		07BCCA32176B2E41009A2C41 /* searchRoommates_rentout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_rentout@2x.png"; sourceTree = "<group>"; };
+		07E7DA10176C406900296E6C /* UIButton+fewferge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+fewferge.h"; sourceTree = "<group>"; };
+		07E7DA11176C406900296E6C /* UIButton+fewferge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+fewferge.m"; sourceTree = "<group>"; };
+		07E7DA13176C409900296E6C /* UIButton_ertet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIButton_ertet.h; sourceTree = "<group>"; };
 		07F636BD17641CED006AD75E /* CustomeViewWithXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomeViewWithXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F636C017641CED006AD75E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07F636C217641CED006AD75E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -251,6 +255,9 @@
 				072B7877176B34D100005CEC /* SearchRoommatesFilterView.h */,
 				072B7878176B34D100005CEC /* SearchRoommatesFilterView.m */,
 				07BCCA0C176B29FC009A2C41 /* SearchRoommatesFilterView.xib */,
+				07E7DA10176C406900296E6C /* UIButton+fewferge.h */,
+				07E7DA11176C406900296E6C /* UIButton+fewferge.m */,
+				07E7DA13176C409900296E6C /* UIButton_ertet.h */,
 				07F636C717641CED006AD75E /* Supporting Files */,
 			);
 			path = CustomeViewWithXib;
@@ -386,6 +393,7 @@
 				07BCC9FF176AF376009A2C41 /* Table1ViewController.m in Sources */,
 				07BCCA03176B1A70009A2C41 /* MyUITableView.m in Sources */,
 				072B7879176B34D200005CEC /* SearchRoommatesFilterView.m in Sources */,
+				07E7DA12176C406900296E6C /* UIButton+fewferge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
