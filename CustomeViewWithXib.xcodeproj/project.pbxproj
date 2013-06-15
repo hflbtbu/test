@@ -7,6 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		072B7879176B34D200005CEC /* SearchRoommatesFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 072B7878176B34D100005CEC /* SearchRoommatesFilterView.m */; };
+		072B787B176B445F00005CEC /* taobaoGuideCategoryViewBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 072B787A176B445F00005CEC /* taobaoGuideCategoryViewBg.png */; };
+		07BCC9F4176AF16D009A2C41 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC9F3176AF16D009A2C41 /* CustomCell.m */; };
+		07BCC9F6176AF182009A2C41 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07BCC9F5176AF182009A2C41 /* CustomCell.xib */; };
+		07BCC9FF176AF376009A2C41 /* Table1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC9FD176AF375009A2C41 /* Table1ViewController.m */; };
+		07BCCA00176AF376009A2C41 /* Table1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07BCC9FE176AF375009A2C41 /* Table1ViewController.xib */; };
+		07BCCA03176B1A70009A2C41 /* MyUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BCCA02176B1A6E009A2C41 /* MyUITableView.m */; };
+		07BCCA07176B21FD009A2C41 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BCCA06176B21FC009A2C41 /* QuartzCore.framework */; };
+		07BCCA09176B2355009A2C41 /* 1landMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA08176B2354009A2C41 /* 1landMark.png */; };
+		07BCCA0D176B29FE009A2C41 /* SearchRoommatesFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA0C176B29FC009A2C41 /* SearchRoommatesFilterView.xib */; };
+		07BCCA33176B2E41009A2C41 /* searchRoommates_boy_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA0F176B2E41009A2C41 /* searchRoommates_boy_selected.png */; };
+		07BCCA34176B2E41009A2C41 /* searchRoommates_boy_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA10176B2E41009A2C41 /* searchRoommates_boy_selected@2x.png */; };
+		07BCCA35176B2E41009A2C41 /* searchRoommates_boy.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA11176B2E41009A2C41 /* searchRoommates_boy.png */; };
+		07BCCA36176B2E41009A2C41 /* searchRoommates_boy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA12176B2E41009A2C41 /* searchRoommates_boy@2x.png */; };
+		07BCCA37176B2E41009A2C41 /* searchRoommates_button_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA13176B2E41009A2C41 /* searchRoommates_button_selected.png */; };
+		07BCCA38176B2E41009A2C41 /* searchRoommates_button_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA14176B2E41009A2C41 /* searchRoommates_button_selected@2x.png */; };
+		07BCCA39176B2E41009A2C41 /* searchRoommates_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA15176B2E41009A2C41 /* searchRoommates_button.png */; };
+		07BCCA3A176B2E41009A2C41 /* searchRoommates_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA16176B2E41009A2C41 /* searchRoommates_button@2x.png */; };
+		07BCCA3B176B2E41009A2C41 /* searchRoommates_defaultavatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA17176B2E41009A2C41 /* searchRoommates_defaultavatar.png */; };
+		07BCCA3C176B2E41009A2C41 /* searchRoommates_defaultavatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA18176B2E41009A2C41 /* searchRoommates_defaultavatar@2x.png */; };
+		07BCCA3D176B2E41009A2C41 /* searchRoommates_female.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA19176B2E41009A2C41 /* searchRoommates_female.png */; };
+		07BCCA3E176B2E41009A2C41 /* searchRoommates_female@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA1A176B2E41009A2C41 /* searchRoommates_female@2x.png */; };
+		07BCCA3F176B2E41009A2C41 /* searchRoommates_girl_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA1B176B2E41009A2C41 /* searchRoommates_girl_selected.png */; };
+		07BCCA40176B2E41009A2C41 /* searchRoommates_girl_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA1C176B2E41009A2C41 /* searchRoommates_girl_selected@2x.png */; };
+		07BCCA41176B2E41009A2C41 /* searchRoommates_girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA1D176B2E41009A2C41 /* searchRoommates_girl.png */; };
+		07BCCA42176B2E41009A2C41 /* searchRoommates_girl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA1E176B2E41009A2C41 /* searchRoommates_girl@2x.png */; };
+		07BCCA43176B2E41009A2C41 /* searchRoommates_havehouse_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA1F176B2E41009A2C41 /* searchRoommates_havehouse_selected.png */; };
+		07BCCA44176B2E41009A2C41 /* searchRoommates_havehouse_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA20176B2E41009A2C41 /* searchRoommates_havehouse_selected@2x.png */; };
+		07BCCA45176B2E41009A2C41 /* searchRoommates_havehouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA21176B2E41009A2C41 /* searchRoommates_havehouse.png */; };
+		07BCCA46176B2E41009A2C41 /* searchRoommates_havehouse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA22176B2E41009A2C41 /* searchRoommates_havehouse@2x.png */; };
+		07BCCA47176B2E41009A2C41 /* searchRoommates_male.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA23176B2E41009A2C41 /* searchRoommates_male.png */; };
+		07BCCA48176B2E41009A2C41 /* searchRoommates_male@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA24176B2E41009A2C41 /* searchRoommates_male@2x.png */; };
+		07BCCA49176B2E41009A2C41 /* searchRoommates_move.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA25176B2E41009A2C41 /* searchRoommates_move.png */; };
+		07BCCA4A176B2E41009A2C41 /* searchRoommates_move@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA26176B2E41009A2C41 /* searchRoommates_move@2x.png */; };
+		07BCCA4B176B2E41009A2C41 /* searchRoommates_nohouse_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA27176B2E41009A2C41 /* searchRoommates_nohouse_selected.png */; };
+		07BCCA4C176B2E41009A2C41 /* searchRoommates_nohouse_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA28176B2E41009A2C41 /* searchRoommates_nohouse_selected@2x.png */; };
+		07BCCA4D176B2E41009A2C41 /* searchRoommates_nohouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA29176B2E41009A2C41 /* searchRoommates_nohouse.png */; };
+		07BCCA4E176B2E41009A2C41 /* searchRoommates_nohouse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA2A176B2E41009A2C41 /* searchRoommates_nohouse@2x.png */; };
+		07BCCA4F176B2E41009A2C41 /* searchRoommates_priceline_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA2B176B2E41009A2C41 /* searchRoommates_priceline_selected.png */; };
+		07BCCA50176B2E41009A2C41 /* searchRoommates_priceline_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA2C176B2E41009A2C41 /* searchRoommates_priceline_selected@2x.png */; };
+		07BCCA51176B2E41009A2C41 /* searchRoommates_priceline.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA2D176B2E41009A2C41 /* searchRoommates_priceline.png */; };
+		07BCCA52176B2E41009A2C41 /* searchRoommates_priceline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA2E176B2E41009A2C41 /* searchRoommates_priceline@2x.png */; };
+		07BCCA53176B2E41009A2C41 /* searchRoommates_rent.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA2F176B2E41009A2C41 /* searchRoommates_rent.png */; };
+		07BCCA54176B2E41009A2C41 /* searchRoommates_rent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA30176B2E41009A2C41 /* searchRoommates_rent@2x.png */; };
+		07BCCA55176B2E41009A2C41 /* searchRoommates_rentout.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA31176B2E41009A2C41 /* searchRoommates_rentout.png */; };
+		07BCCA56176B2E41009A2C41 /* searchRoommates_rentout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07BCCA32176B2E41009A2C41 /* searchRoommates_rentout@2x.png */; };
 		07F636C117641CED006AD75E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F636C017641CED006AD75E /* UIKit.framework */; };
 		07F636C317641CED006AD75E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F636C217641CED006AD75E /* Foundation.framework */; };
 		07F636C517641CED006AD75E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F636C417641CED006AD75E /* CoreGraphics.framework */; };
@@ -16,9 +62,63 @@
 		07F636D317641CED006AD75E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F636D217641CED006AD75E /* Default.png */; };
 		07F636D517641CED006AD75E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F636D417641CED006AD75E /* Default@2x.png */; };
 		07F636D717641CED006AD75E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F636D617641CED006AD75E /* Default-568h@2x.png */; };
+		07F636E317641D20006AD75E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F636E117641D20006AD75E /* ViewController.m */; };
+		07F636E417641D20006AD75E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F636E217641D20006AD75E /* ViewController.xib */; };
+		07F636EA17641D55006AD75E /* CustomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F636E917641D55006AD75E /* CustomeView.m */; };
+		07F636EC17641D7B006AD75E /* CustomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F636EB17641D7B006AD75E /* CustomeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		072B7877176B34D100005CEC /* SearchRoommatesFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchRoommatesFilterView.h; sourceTree = "<group>"; };
+		072B7878176B34D100005CEC /* SearchRoommatesFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchRoommatesFilterView.m; sourceTree = "<group>"; };
+		072B787A176B445F00005CEC /* taobaoGuideCategoryViewBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taobaoGuideCategoryViewBg.png; sourceTree = "<group>"; };
+		07BCC9F2176AF16D009A2C41 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		07BCC9F3176AF16D009A2C41 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		07BCC9F5176AF182009A2C41 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		07BCC9FC176AF374009A2C41 /* Table1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table1ViewController.h; sourceTree = "<group>"; };
+		07BCC9FD176AF375009A2C41 /* Table1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table1ViewController.m; sourceTree = "<group>"; };
+		07BCC9FE176AF375009A2C41 /* Table1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Table1ViewController.xib; sourceTree = "<group>"; };
+		07BCCA01176B1A6D009A2C41 /* MyUITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUITableView.h; sourceTree = "<group>"; };
+		07BCCA02176B1A6E009A2C41 /* MyUITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUITableView.m; sourceTree = "<group>"; };
+		07BCCA06176B21FC009A2C41 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		07BCCA08176B2354009A2C41 /* 1landMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1landMark.png; path = ../../../../myProject/i300/ThreeHundred/Resources/images/1landMark.png; sourceTree = "<group>"; };
+		07BCCA0C176B29FC009A2C41 /* SearchRoommatesFilterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchRoommatesFilterView.xib; sourceTree = "<group>"; };
+		07BCCA0F176B2E41009A2C41 /* searchRoommates_boy_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_boy_selected.png; sourceTree = "<group>"; };
+		07BCCA10176B2E41009A2C41 /* searchRoommates_boy_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_boy_selected@2x.png"; sourceTree = "<group>"; };
+		07BCCA11176B2E41009A2C41 /* searchRoommates_boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_boy.png; sourceTree = "<group>"; };
+		07BCCA12176B2E41009A2C41 /* searchRoommates_boy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_boy@2x.png"; sourceTree = "<group>"; };
+		07BCCA13176B2E41009A2C41 /* searchRoommates_button_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_button_selected.png; sourceTree = "<group>"; };
+		07BCCA14176B2E41009A2C41 /* searchRoommates_button_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_button_selected@2x.png"; sourceTree = "<group>"; };
+		07BCCA15176B2E41009A2C41 /* searchRoommates_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_button.png; sourceTree = "<group>"; };
+		07BCCA16176B2E41009A2C41 /* searchRoommates_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_button@2x.png"; sourceTree = "<group>"; };
+		07BCCA17176B2E41009A2C41 /* searchRoommates_defaultavatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_defaultavatar.png; sourceTree = "<group>"; };
+		07BCCA18176B2E41009A2C41 /* searchRoommates_defaultavatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_defaultavatar@2x.png"; sourceTree = "<group>"; };
+		07BCCA19176B2E41009A2C41 /* searchRoommates_female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_female.png; sourceTree = "<group>"; };
+		07BCCA1A176B2E41009A2C41 /* searchRoommates_female@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_female@2x.png"; sourceTree = "<group>"; };
+		07BCCA1B176B2E41009A2C41 /* searchRoommates_girl_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_girl_selected.png; sourceTree = "<group>"; };
+		07BCCA1C176B2E41009A2C41 /* searchRoommates_girl_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_girl_selected@2x.png"; sourceTree = "<group>"; };
+		07BCCA1D176B2E41009A2C41 /* searchRoommates_girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_girl.png; sourceTree = "<group>"; };
+		07BCCA1E176B2E41009A2C41 /* searchRoommates_girl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_girl@2x.png"; sourceTree = "<group>"; };
+		07BCCA1F176B2E41009A2C41 /* searchRoommates_havehouse_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_havehouse_selected.png; sourceTree = "<group>"; };
+		07BCCA20176B2E41009A2C41 /* searchRoommates_havehouse_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_havehouse_selected@2x.png"; sourceTree = "<group>"; };
+		07BCCA21176B2E41009A2C41 /* searchRoommates_havehouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_havehouse.png; sourceTree = "<group>"; };
+		07BCCA22176B2E41009A2C41 /* searchRoommates_havehouse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_havehouse@2x.png"; sourceTree = "<group>"; };
+		07BCCA23176B2E41009A2C41 /* searchRoommates_male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_male.png; sourceTree = "<group>"; };
+		07BCCA24176B2E41009A2C41 /* searchRoommates_male@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_male@2x.png"; sourceTree = "<group>"; };
+		07BCCA25176B2E41009A2C41 /* searchRoommates_move.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_move.png; sourceTree = "<group>"; };
+		07BCCA26176B2E41009A2C41 /* searchRoommates_move@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_move@2x.png"; sourceTree = "<group>"; };
+		07BCCA27176B2E41009A2C41 /* searchRoommates_nohouse_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_nohouse_selected.png; sourceTree = "<group>"; };
+		07BCCA28176B2E41009A2C41 /* searchRoommates_nohouse_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_nohouse_selected@2x.png"; sourceTree = "<group>"; };
+		07BCCA29176B2E41009A2C41 /* searchRoommates_nohouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_nohouse.png; sourceTree = "<group>"; };
+		07BCCA2A176B2E41009A2C41 /* searchRoommates_nohouse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_nohouse@2x.png"; sourceTree = "<group>"; };
+		07BCCA2B176B2E41009A2C41 /* searchRoommates_priceline_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_priceline_selected.png; sourceTree = "<group>"; };
+		07BCCA2C176B2E41009A2C41 /* searchRoommates_priceline_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_priceline_selected@2x.png"; sourceTree = "<group>"; };
+		07BCCA2D176B2E41009A2C41 /* searchRoommates_priceline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_priceline.png; sourceTree = "<group>"; };
+		07BCCA2E176B2E41009A2C41 /* searchRoommates_priceline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_priceline@2x.png"; sourceTree = "<group>"; };
+		07BCCA2F176B2E41009A2C41 /* searchRoommates_rent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_rent.png; sourceTree = "<group>"; };
+		07BCCA30176B2E41009A2C41 /* searchRoommates_rent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_rent@2x.png"; sourceTree = "<group>"; };
+		07BCCA31176B2E41009A2C41 /* searchRoommates_rentout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchRoommates_rentout.png; sourceTree = "<group>"; };
+		07BCCA32176B2E41009A2C41 /* searchRoommates_rentout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchRoommates_rentout@2x.png"; sourceTree = "<group>"; };
 		07F636BD17641CED006AD75E /* CustomeViewWithXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomeViewWithXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F636C017641CED006AD75E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07F636C217641CED006AD75E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +132,12 @@
 		07F636D217641CED006AD75E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		07F636D417641CED006AD75E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		07F636D617641CED006AD75E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		07F636E017641D20006AD75E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07F636E117641D20006AD75E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07F636E217641D20006AD75E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		07F636E817641D55006AD75E /* CustomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeView.h; sourceTree = "<group>"; };
+		07F636E917641D55006AD75E /* CustomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeView.m; sourceTree = "<group>"; };
+		07F636EB17641D7B006AD75E /* CustomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BCCA07176B21FD009A2C41 /* QuartzCore.framework in Frameworks */,
 				07F636C117641CED006AD75E /* UIKit.framework in Frameworks */,
 				07F636C317641CED006AD75E /* Foundation.framework in Frameworks */,
 				07F636C517641CED006AD75E /* CoreGraphics.framework in Frameworks */,
@@ -48,6 +155,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07BCCA0E176B2D78009A2C41 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				072B787A176B445F00005CEC /* taobaoGuideCategoryViewBg.png */,
+				07BCCA0F176B2E41009A2C41 /* searchRoommates_boy_selected.png */,
+				07BCCA10176B2E41009A2C41 /* searchRoommates_boy_selected@2x.png */,
+				07BCCA11176B2E41009A2C41 /* searchRoommates_boy.png */,
+				07BCCA12176B2E41009A2C41 /* searchRoommates_boy@2x.png */,
+				07BCCA13176B2E41009A2C41 /* searchRoommates_button_selected.png */,
+				07BCCA14176B2E41009A2C41 /* searchRoommates_button_selected@2x.png */,
+				07BCCA15176B2E41009A2C41 /* searchRoommates_button.png */,
+				07BCCA16176B2E41009A2C41 /* searchRoommates_button@2x.png */,
+				07BCCA17176B2E41009A2C41 /* searchRoommates_defaultavatar.png */,
+				07BCCA18176B2E41009A2C41 /* searchRoommates_defaultavatar@2x.png */,
+				07BCCA19176B2E41009A2C41 /* searchRoommates_female.png */,
+				07BCCA1A176B2E41009A2C41 /* searchRoommates_female@2x.png */,
+				07BCCA1B176B2E41009A2C41 /* searchRoommates_girl_selected.png */,
+				07BCCA1C176B2E41009A2C41 /* searchRoommates_girl_selected@2x.png */,
+				07BCCA1D176B2E41009A2C41 /* searchRoommates_girl.png */,
+				07BCCA1E176B2E41009A2C41 /* searchRoommates_girl@2x.png */,
+				07BCCA1F176B2E41009A2C41 /* searchRoommates_havehouse_selected.png */,
+				07BCCA20176B2E41009A2C41 /* searchRoommates_havehouse_selected@2x.png */,
+				07BCCA21176B2E41009A2C41 /* searchRoommates_havehouse.png */,
+				07BCCA22176B2E41009A2C41 /* searchRoommates_havehouse@2x.png */,
+				07BCCA23176B2E41009A2C41 /* searchRoommates_male.png */,
+				07BCCA24176B2E41009A2C41 /* searchRoommates_male@2x.png */,
+				07BCCA25176B2E41009A2C41 /* searchRoommates_move.png */,
+				07BCCA26176B2E41009A2C41 /* searchRoommates_move@2x.png */,
+				07BCCA27176B2E41009A2C41 /* searchRoommates_nohouse_selected.png */,
+				07BCCA28176B2E41009A2C41 /* searchRoommates_nohouse_selected@2x.png */,
+				07BCCA29176B2E41009A2C41 /* searchRoommates_nohouse.png */,
+				07BCCA2A176B2E41009A2C41 /* searchRoommates_nohouse@2x.png */,
+				07BCCA2B176B2E41009A2C41 /* searchRoommates_priceline_selected.png */,
+				07BCCA2C176B2E41009A2C41 /* searchRoommates_priceline_selected@2x.png */,
+				07BCCA2D176B2E41009A2C41 /* searchRoommates_priceline.png */,
+				07BCCA2E176B2E41009A2C41 /* searchRoommates_priceline@2x.png */,
+				07BCCA2F176B2E41009A2C41 /* searchRoommates_rent.png */,
+				07BCCA30176B2E41009A2C41 /* searchRoommates_rent@2x.png */,
+				07BCCA31176B2E41009A2C41 /* searchRoommates_rentout.png */,
+				07BCCA32176B2E41009A2C41 /* searchRoommates_rentout@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		07F636B417641CED006AD75E = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +219,7 @@
 		07F636BF17641CED006AD75E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07BCCA06176B21FC009A2C41 /* QuartzCore.framework */,
 				07F636C017641CED006AD75E /* UIKit.framework */,
 				07F636C217641CED006AD75E /* Foundation.framework */,
 				07F636C417641CED006AD75E /* CoreGraphics.framework */,
@@ -78,8 +230,27 @@
 		07F636C617641CED006AD75E /* CustomeViewWithXib */ = {
 			isa = PBXGroup;
 			children = (
+				07BCCA0E176B2D78009A2C41 /* images */,
+				07BCCA08176B2354009A2C41 /* 1landMark.png */,
 				07F636CF17641CED006AD75E /* AppDelegate.h */,
 				07F636D017641CED006AD75E /* AppDelegate.m */,
+				07F636E017641D20006AD75E /* ViewController.h */,
+				07F636E117641D20006AD75E /* ViewController.m */,
+				07F636E217641D20006AD75E /* ViewController.xib */,
+				07F636E817641D55006AD75E /* CustomeView.h */,
+				07F636E917641D55006AD75E /* CustomeView.m */,
+				07F636EB17641D7B006AD75E /* CustomeView.xib */,
+				07BCC9FC176AF374009A2C41 /* Table1ViewController.h */,
+				07BCC9FD176AF375009A2C41 /* Table1ViewController.m */,
+				07BCC9FE176AF375009A2C41 /* Table1ViewController.xib */,
+				07BCC9F2176AF16D009A2C41 /* CustomCell.h */,
+				07BCC9F3176AF16D009A2C41 /* CustomCell.m */,
+				07BCC9F5176AF182009A2C41 /* CustomCell.xib */,
+				07BCCA01176B1A6D009A2C41 /* MyUITableView.h */,
+				07BCCA02176B1A6E009A2C41 /* MyUITableView.m */,
+				072B7877176B34D100005CEC /* SearchRoommatesFilterView.h */,
+				072B7878176B34D100005CEC /* SearchRoommatesFilterView.m */,
+				07BCCA0C176B29FC009A2C41 /* SearchRoommatesFilterView.xib */,
 				07F636C717641CED006AD75E /* Supporting Files */,
 			);
 			path = CustomeViewWithXib;
@@ -154,6 +325,49 @@
 				07F636D317641CED006AD75E /* Default.png in Resources */,
 				07F636D517641CED006AD75E /* Default@2x.png in Resources */,
 				07F636D717641CED006AD75E /* Default-568h@2x.png in Resources */,
+				07F636E417641D20006AD75E /* ViewController.xib in Resources */,
+				07F636EC17641D7B006AD75E /* CustomeView.xib in Resources */,
+				07BCC9F6176AF182009A2C41 /* CustomCell.xib in Resources */,
+				07BCCA00176AF376009A2C41 /* Table1ViewController.xib in Resources */,
+				07BCCA09176B2355009A2C41 /* 1landMark.png in Resources */,
+				07BCCA0D176B29FE009A2C41 /* SearchRoommatesFilterView.xib in Resources */,
+				07BCCA33176B2E41009A2C41 /* searchRoommates_boy_selected.png in Resources */,
+				07BCCA34176B2E41009A2C41 /* searchRoommates_boy_selected@2x.png in Resources */,
+				07BCCA35176B2E41009A2C41 /* searchRoommates_boy.png in Resources */,
+				07BCCA36176B2E41009A2C41 /* searchRoommates_boy@2x.png in Resources */,
+				07BCCA37176B2E41009A2C41 /* searchRoommates_button_selected.png in Resources */,
+				07BCCA38176B2E41009A2C41 /* searchRoommates_button_selected@2x.png in Resources */,
+				07BCCA39176B2E41009A2C41 /* searchRoommates_button.png in Resources */,
+				07BCCA3A176B2E41009A2C41 /* searchRoommates_button@2x.png in Resources */,
+				07BCCA3B176B2E41009A2C41 /* searchRoommates_defaultavatar.png in Resources */,
+				07BCCA3C176B2E41009A2C41 /* searchRoommates_defaultavatar@2x.png in Resources */,
+				07BCCA3D176B2E41009A2C41 /* searchRoommates_female.png in Resources */,
+				07BCCA3E176B2E41009A2C41 /* searchRoommates_female@2x.png in Resources */,
+				07BCCA3F176B2E41009A2C41 /* searchRoommates_girl_selected.png in Resources */,
+				07BCCA40176B2E41009A2C41 /* searchRoommates_girl_selected@2x.png in Resources */,
+				07BCCA41176B2E41009A2C41 /* searchRoommates_girl.png in Resources */,
+				07BCCA42176B2E41009A2C41 /* searchRoommates_girl@2x.png in Resources */,
+				07BCCA43176B2E41009A2C41 /* searchRoommates_havehouse_selected.png in Resources */,
+				07BCCA44176B2E41009A2C41 /* searchRoommates_havehouse_selected@2x.png in Resources */,
+				07BCCA45176B2E41009A2C41 /* searchRoommates_havehouse.png in Resources */,
+				07BCCA46176B2E41009A2C41 /* searchRoommates_havehouse@2x.png in Resources */,
+				07BCCA47176B2E41009A2C41 /* searchRoommates_male.png in Resources */,
+				07BCCA48176B2E41009A2C41 /* searchRoommates_male@2x.png in Resources */,
+				07BCCA49176B2E41009A2C41 /* searchRoommates_move.png in Resources */,
+				07BCCA4A176B2E41009A2C41 /* searchRoommates_move@2x.png in Resources */,
+				07BCCA4B176B2E41009A2C41 /* searchRoommates_nohouse_selected.png in Resources */,
+				07BCCA4C176B2E41009A2C41 /* searchRoommates_nohouse_selected@2x.png in Resources */,
+				07BCCA4D176B2E41009A2C41 /* searchRoommates_nohouse.png in Resources */,
+				07BCCA4E176B2E41009A2C41 /* searchRoommates_nohouse@2x.png in Resources */,
+				07BCCA4F176B2E41009A2C41 /* searchRoommates_priceline_selected.png in Resources */,
+				07BCCA50176B2E41009A2C41 /* searchRoommates_priceline_selected@2x.png in Resources */,
+				07BCCA51176B2E41009A2C41 /* searchRoommates_priceline.png in Resources */,
+				07BCCA52176B2E41009A2C41 /* searchRoommates_priceline@2x.png in Resources */,
+				07BCCA53176B2E41009A2C41 /* searchRoommates_rent.png in Resources */,
+				07BCCA54176B2E41009A2C41 /* searchRoommates_rent@2x.png in Resources */,
+				07BCCA55176B2E41009A2C41 /* searchRoommates_rentout.png in Resources */,
+				07BCCA56176B2E41009A2C41 /* searchRoommates_rentout@2x.png in Resources */,
+				072B787B176B445F00005CEC /* taobaoGuideCategoryViewBg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +380,12 @@
 			files = (
 				07F636CD17641CED006AD75E /* main.m in Sources */,
 				07F636D117641CED006AD75E /* AppDelegate.m in Sources */,
+				07F636E317641D20006AD75E /* ViewController.m in Sources */,
+				07F636EA17641D55006AD75E /* CustomeView.m in Sources */,
+				07BCC9F4176AF16D009A2C41 /* CustomCell.m in Sources */,
+				07BCC9FF176AF376009A2C41 /* Table1ViewController.m in Sources */,
+				07BCCA03176B1A70009A2C41 /* MyUITableView.m in Sources */,
+				072B7879176B34D200005CEC /* SearchRoommatesFilterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +500,7 @@
 				07F636DC17641CED006AD75E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
